@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    </head>
+    <body>
+        <main>
+            <div class="esfera-inferior-esquerda"></div>
+            <div class="esfera-principal"></div>
+            <section class="lado-esquerdo">
+                <h1>Bem-vindo!</h1>
+                <h2>Para começar a usar nossos serviços entre na sua conta.</h2>
+                <p>Temos um mundo de opções personalizadas para atender seu problema da melhor forma possível. Aproveite o uso e se tiver algumas sugestão, compartilhe conosco em nossos canais de atendimento.</p>
+            </section>
+            <div class="esfera-inferior-direita"></div>
+            <section class="lado-direito">
+                    <h1>Entrar na Conta</h1>
+                    <input type="email" placeholder="Email" class="input-login" id="email">
+                    <div class="campo-senha">
+                        <input type="password" placeholder="Senha" class="input-login" id="senha">
+                        <img id="olho" onclick="ocultar()" class="olho" src="./assets/olho.png" alt="olho">
+                    </div>
+
+                    <a href="">Esqueceu sua senha?</a>
+                    <span class="mensagem" id="mensagem"></span>
+
+                    <button onclick="validar()" class="botao-login">
+                        <div class="carregar">
+                            <img class="img-botao" id="imgBotao" src="">
+                            <span id="texto-botao">Entrar</span>
+                        </div>
+                    </button>
+                    <span class="texto-cadastro">Não te uma conta? <span>Cadastrar-se</span></span>
+            </section>
+         </main>
+    </body>
+    <script src="./script.js"></script>
+</html>
